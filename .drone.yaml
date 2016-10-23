@@ -6,6 +6,7 @@ build:
     - flake8 setup.py drone tests
     - nosetests -v --with-coverage--cover-package jin2cli 
 
+
 matrix:
   PYTHON_VERSION:
     - 2.7
